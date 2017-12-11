@@ -1,0 +1,22 @@
+{
+  "name": "graphql-from-rest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:api-server": "json-server ./database/db.json",
+    "start:graphql-server": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Eric Baer <me@ericbaer.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-graphql": "^0.6.11",
+    "faker": "^4.1.0",
+    "graphql": "^0.11.6",
+    "json-server": "^0.12.0",
+    "nodemon": "^1.12.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
